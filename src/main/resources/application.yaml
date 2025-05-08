@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: event_parser
+
+leon-bets:
+  sport-types-config:
+    baseElement: "[class^=sportline-filter]"
+    link: a
+    sportName: span
+  url: https://leonbets.com/en-en/bets
+  baseUrl: https://leonbets.com
+  leagues-config:
+    baseElement: "[class*=leagues-list--top] li"
+    league: "span"
+    link: "a"
+  matches-config:
+    baseElement: "[class*=sportline-event-block-container]"
+    link: "[class*=sportline-event-block-container]>a"
+    matchName: "[class*=sportline-event-competitors] span"
+    date: "[class*=kickoff-countdown__date]"
+    time: "[class*=kickoff-countdown__time]"
+  reserved-words:
+    - sportType
+    - leagueName
+
+
+
