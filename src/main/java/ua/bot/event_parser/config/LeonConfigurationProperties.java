@@ -4,12 +4,14 @@ import jakarta.validation.constraints.NotEmpty;
 import lombok.Data;
 import org.hibernate.validator.constraints.URL;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.validation.annotation.Validated;
 
 import java.util.Map;
 import java.util.Set;
 
 @ConfigurationProperties(prefix = "leon-bets")
 @Data
+@Validated
 public class LeonConfigurationProperties {
     @NotEmpty(message = "url for scraping can't be empty")
     @URL

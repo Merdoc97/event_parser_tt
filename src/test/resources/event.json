@@ -1,0 +1,529 @@
+[
+  {
+    "sportType": "Football",
+    "leagueName": "Germany - Bundesliga",
+    "matches": [
+      {
+        "id": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+        "matchName": "VfL Wolfsburg 1899 Hoffenheim",
+        "sportType": "Football",
+        "leagueName": "Germany - Bundesliga",
+        "eventTime": 1746826200.0,
+        "events": [
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Correct Score (Till 4 Goals)",
+            "marketValue": [
+              "0:1 15.00",
+              "1:4 50.00",
+              "2:3 24.00",
+              "0:0 18.00",
+              "3:2 21.00",
+              "2:4 60.00",
+              "3:0 25.00",
+              "Any Other 15.00",
+              "4:3 90.00",
+              "3:3 35.00",
+              "2:0 15.00",
+              "2:2 11.00",
+              "4:4 101",
+              "4:1 35.00",
+              "4:2 45.00",
+              "0:3 35.00",
+              "3:1 16.00",
+              "1:2 11.00",
+              "-- --",
+              "0:4 90.00",
+              "1:3 21.00",
+              "1:1 7.40",
+              "0:2 19.00",
+              "2:1 9.60",
+              "3:4 101",
+              "1:0 13.00",
+              "4:0 60.00"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Will A Penalty Be Awarded",
+            "marketValue": [
+              "No 1.26",
+              "Yes 3.07"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Odd/Even",
+            "marketValue": [
+              "Even 1.87",
+              "Odd 2.01"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Handicap",
+            "marketValue": [
+              "1 (0) 1.71",
+              "2 (-0.5) 2.85",
+              "1 (-0.5) 2.26",
+              "2 (+1) 1.33",
+              "2 (-1) 4.70",
+              "1 (+1) 1.20",
+              "1 (-1) 3.35",
+              "1 (-1.5) 4.10",
+              "2 (-1.5) 5.40",
+              "2 (+1.5) 1.24",
+              "1 (+0.5) 1.43",
+              "2 (+0.5) 1.64",
+              "1 (+1.5) 1.15",
+              "2 (0) 2.15"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Team To Score Goal 1",
+            "marketValue": [
+              "No goal 21.00",
+              "2 2.11",
+              "1 1.86"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Correct Score",
+            "marketValue": [
+              "0:1 15.00",
+              "5:3 101",
+              "1:4 50.00",
+              "2:3 24.00",
+              "0:0 18.00",
+              "3:2 21.00",
+              "5:2 101",
+              "5:4 101",
+              "2:4 60.00",
+              "3:0 25.00",
+              "3:5 101",
+              "2:5 101",
+              "4:3 90.00",
+              "5:1 101",
+              "3:3 35.00",
+              "2:0 15.00",
+              "0:5 101",
+              "Any Other 60.00",
+              "2:2 11.00",
+              "4:4 101",
+              "4:1 35.00",
+              "5:0 101",
+              "4:2 45.00",
+              "0:3 35.00",
+              "3:1 16.00",
+              "1:2 11.00",
+              "-- --",
+              "0:4 90.00",
+              "1:3 21.00",
+              "1:1 7.40",
+              "0:2 19.00",
+              "4:5 101",
+              "2:1 9.60",
+              "1:5 101",
+              "3:4 101",
+              "1:0 13.00",
+              "4:0 60.00"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Total",
+            "marketValue": [
+              "Over (0.5) 1.03",
+              "Over (5.5) 7.00",
+              "Under (3.5) 1.65",
+              "Under (1.5) 5.40",
+              "Under (3) 2.03",
+              "Over (3) 1.80",
+              "Over (4.5) 3.85",
+              "Under (2.5) 2.55",
+              "Over (1.5) 1.16",
+              "Over (2) 1.22",
+              "Under (5) 1.12",
+              "Over (2.5) 1.52",
+              "Over (3.5) 2.26",
+              "Under (2) 4.40",
+              "Under (0.5) 13.00",
+              "Over (4) 3.20",
+              "Over (5) 6.20",
+              "Under (5.5) 1.10",
+              "Under (4.5) 1.26",
+              "Under (4) 1.35"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "To Score A Penalty",
+            "marketValue": [
+              "1 1.72",
+              "2 1.86"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Double Chance",
+            "marketValue": [
+              "X2 1.67",
+              "12 1.32",
+              "1X 1.46"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Half 1: Winner",
+            "marketValue": [
+              "2 3.25",
+              "X 2.46",
+              "1 2.70"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Away Team Total",
+            "marketValue": [
+              "Over (1.5) 2.09",
+              "Over (0.5) 1.24",
+              "Over (2.5) 4.50",
+              "Over (3.5) 10.00",
+              "Under (2.5) 1.21",
+              "Under (1.5) 1.75",
+              "Under (3.5) 1.05",
+              "Under (0.5) 4.20",
+              "Over (4.5) 18.00",
+              "-- --"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Draw No Bet",
+            "marketValue": [
+              "1 1.71",
+              "2 2.15"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Both Teams To Score",
+            "marketValue": [
+              "No 2.75",
+              "Yes 1.48"
+            ]
+          },
+          {
+            "matchId": "1970324846239930-vfl-wolfsburg-1899-hoffenheim",
+            "markerName": "Home Team Total",
+            "marketValue": [
+              "Over (1.5) 1.84",
+              "Over (2.5) 3.60",
+              "Over (0.5) 1.18",
+              "Over (3.5) 7.80",
+              "Under (0.5) 5.00",
+              "Under (1.5) 1.98",
+              "Under (4.5) 1.02",
+              "Under (2.5) 1.30",
+              "Under (3.5) 1.08",
+              "Over (4.5) 15.00"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sportType": "Football",
+    "leagueName": "Italy - Serie A",
+    "matches": [
+      {
+        "id": "1970324846476976-ac-milan-bologna",
+        "matchName": "AC Milan Bologna",
+        "sportType": "Football",
+        "leagueName": "Italy - Serie A",
+        "eventTime": 1746827100.0,
+        "events": [
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "Half 1: Winner",
+            "marketValue": [
+              "X 2.23",
+              "2 3.57",
+              "1 2.98"
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "Away Team Total",
+            "marketValue": [
+              "Under (0.5) 3.16",
+              "Over (0.5) 1.34",
+              "Over (2) 5.20",
+              "Under (2) 1.15",
+              "Over (1.5) 2.65",
+              "Under (2.5) 1.10",
+              "Over (1) 1.73",
+              "Over (2.5) 6.70",
+              "Under (1) 2.08",
+              "Under (1.5) 1.47"
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "Both Teams To Score",
+            "marketValue": [
+              "Yes 1.76",
+              "No 2.07"
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "Odd/Even",
+            "marketValue": [
+              "Even 1.85",
+              "Odd 2.00"
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "First Team To Score",
+            "marketValue": [
+              "2 2.36",
+              "1 1.81",
+              "No goal 10.50"
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "Will A Penalty Be Awarded",
+            "marketValue": [
+              "Yes 2.65",
+              "No 1.35"
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "Draw No Bet",
+            "marketValue": [
+              "1 1.71",
+              "2 2.15"
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "Total",
+            "marketValue": [
+              "Under (5.5) 1.03",
+              "Under (3) 1.49",
+              "Under (1.5) 3.60",
+              "Under (3.5) 1.34",
+              "Over (0.5) 1.05",
+              "Under (2.5) 1.87",
+              "Over (3) 2.63",
+              "Under (2) 2.76",
+              "Over (4.5) 6.40",
+              "Over (1) 1.07",
+              "Over (2) 1.45",
+              "Over (1.5) 1.29",
+              "Over (2.5) 1.94",
+              "Over (4) 5.80",
+              "Over (3.5) 3.29",
+              "Under (0.5) 10.20",
+              "Under (4.5) 1.12",
+              "Under (4) 1.14",
+              "Over (5.5) 12.90",
+              "Under (1) 8.50"
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "Double Chance",
+            "marketValue": [
+              "12 1.32",
+              "X2 1.59",
+              "1X 1.36"
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "Handicap",
+            "marketValue": [
+              "1 (-1.5) 4.58",
+              "1 (+1) 1.16",
+              "2 (+1) 1.28",
+              "1 (-0.5) 2.27",
+              "2 (-1) 5.40",
+              "1 (0) 1.67",
+              "1 (-1) 3.68",
+              "2 (-1.5) 6.30",
+              "2 (-0.5) 3.03",
+              "2 (+1.5) 1.20",
+              "2 (0) 2.21",
+              "2 (+0.5) 1.64",
+              "1 (+1.5) 1.12",
+              "1 (+0.5) 1.39"
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "Correct Score",
+            "marketValue": [
+              "9:10 173 ",
+              "7:3 173 ",
+              "10:4 173 ",
+              "9:3 173 ",
+              "5:10 173 ",
+              "6:3 173 ",
+              "8:3 173 ",
+              "2:2 18.30",
+              "4:1 60.00",
+              "5:4 173 ",
+              "6:4 173 ",
+              "9:1 173 ",
+              "7:4 173 ",
+              "9:4 173 ",
+              "10:6 173 ",
+              "7:1 173 ",
+              "10:3 173 ",
+              "2:1 13.50",
+              "1:6 440",
+              "4:0 70.00",
+              "6:5 173 ",
+              "8:2 173 ",
+              "4:5 173 ",
+              "8:5 173 ",
+              "5:1 132",
+              "2:10 173 ",
+              "0:1 14.60",
+              "10:10 173 ",
+              "3:4 147",
+              "4:6 173 ",
+              "5:6 173 ",
+              "1:4 81.00",
+              "8:0 173 ",
+              "9:0 173 ",
+              "Any Other 2.48",
+              "5:2 165",
+              "1:1 9.10",
+              "1:7 173 ",
+              "0:4 108",
+              "6:10 173 ",
+              "6:2 366",
+              "2:7 173 ",
+              "5:7 173 ",
+              "6:7 173 ",
+              "1:3 31.00",
+              "2:4 100",
+              "3:1 24.90",
+              "3:8 173 ",
+              "7:2 173 ",
+              "10:8 173 ",
+              "7:5 173 ",
+              "8:6 173 ",
+              "8:9 173 ",
+              "2:3 38.00",
+              "3:10 173 ",
+              "0:3 48.00",
+              "10:2 173 ",
+              "10:5 173 ",
+              "2:9 173 ",
+              "1:9 173 ",
+              "3:9 173 ",
+              "0:9 173 ",
+              "4:9 173 ",
+              "4:3 132",
+              "8:8 173 ",
+              "9:8 173 ",
+              "3:5 293",
+              "3:3 64.00",
+              "6:8 173 ",
+              "7:8 173 ",
+              "0:6 146",
+              "4:4 220",
+              "1:0 12.40",
+              "9:7 173 ",
+              "7:10 173 ",
+              "8:7 173 ",
+              "10:0 173 ",
+              "6:0 293",
+              "0:5 184",
+              "0:10 173 ",
+              "5:0 147",
+              "1:2 16.10",
+              "10:9 173 ",
+              "0:8 173 ",
+              "2:8 173 ",
+              "4:8 173 ",
+              "-- --",
+              "4:10 173 ",
+              "9:9 173 ",
+              "9:6 173 ",
+              "7:9 173 ",
+              "1:5 165",
+              "2:6 146",
+              "5:9 173 ",
+              "2:0 15.40",
+              "3:6 173 ",
+              "8:10 173 ",
+              "0:0 13.50",
+              "9:5 173 ",
+              "6:6 173 ",
+              "7:6 173 ",
+              "7:0 173 ",
+              "10:1 173 ",
+              "2:5 184",
+              "0:7 173 ",
+              "0:2 21.20",
+              "10:7 173 ",
+              "4:7 173 ",
+              "3:7 173 ",
+              "8:4 173 ",
+              "7:7 173 ",
+              "5:3 257",
+              "8:1 173 ",
+              "3:2 34.00",
+              "4:2 78.00",
+              "1:8 173 ",
+              "3:0 32.00",
+              "6:1 257",
+              "5:5 173 ",
+              "5:8 173 ",
+              "6:9 173 ",
+              "9:2 173 ",
+              "1:10 173 "
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "Home Team Total",
+            "marketValue": [
+              "Over (3.5) 12.70",
+              "Over (0.5) 1.24",
+              "Over (2.5) 5.10",
+              "Over (1) 1.45",
+              "Under (2.5) 1.16",
+              "Under (1.5) 1.62",
+              "Under (3.5) 1.02",
+              "Over (1.5) 2.25",
+              "Under (0.5) 3.90",
+              "Under (1) 2.70",
+              "Over (2) 4.13",
+              "Under (2) 1.22"
+            ]
+          },
+          {
+            "matchId": "1970324846476976-ac-milan-bologna",
+            "markerName": "To Score A Penalty",
+            "marketValue": [
+              "1 1.67",
+              "2 1.91"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

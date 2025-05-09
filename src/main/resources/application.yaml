@@ -3,12 +3,12 @@ spring:
     name: event_parser
 
 leon-bets:
+  url: https://leonbets.com/en-en/bets
+  baseUrl: https://leonbets.com
   sport-types-config:
     baseElement: "[class^=sportline-filter]"
     link: a
     sportName: span
-  url: https://leonbets.com/en-en/bets
-  baseUrl: https://leonbets.com
   leagues-config:
     baseElement: "[class*=leagues-list--top] li"
     league: "span"
@@ -16,12 +16,23 @@ leon-bets:
   matches-config:
     baseElement: "[class*=sportline-event-block-container]"
     link: "[class*=sportline-event-block-container]>a"
-    matchName: "[class*=sportline-event-competitors] span"
+    matchName: "[class*=sportline-event-competitors]"
     date: "[class*=kickoff-countdown__date]"
     time: "[class*=kickoff-countdown__time]"
+  events-config:
+    baseElement: "[class*=sport-event-details-market-group__wrapper]"
+    marketName: "[class*=sport-event-details-market-group__header] span"
+    eventList: "[class*=sport-event-details-item__runner]"
   reserved-words:
     - sportType
     - leagueName
+    - id
+
+logging:
+  level:
+    ua.bot.event_parser.scraper.LeonScrapeService: debug
+    ua.bot.event_parser.scraper.ScraperImpl: debug
+
 
 
 

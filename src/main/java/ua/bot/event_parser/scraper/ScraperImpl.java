@@ -10,6 +10,7 @@ import org.jsoup.nodes.Document;
 import org.springframework.stereotype.Component;
 import ua.bot.event_parser.processing.ResultCollector;
 
+import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
@@ -28,16 +29,17 @@ public class ScraperImpl implements Scraper {
         return getDocument(url)
                 .stream()
                 .flatMap(document -> collect(document, parseConfig, resultCollector, baseUrl))
-                .collect(Collectors.toSet());
+                .collect(Collectors.toCollection(LinkedHashSet::new));
     }
 
     private Optional<Document> getDocument(String url) {
+        log.debug("start getting document by url:  {} ", url);
         try {
             try (Playwright playwright = Playwright.create()) {
                 Browser browser = playwright.chromium().launch();
                 Page page = browser.newPage();
-                page.navigate(url);
-                page.waitForLoadState(LoadState.NETWORKIDLE);
+                page.navigate(url, new Page.NavigateOptions().setTimeout(30000));
+                page.waitForLoadState(LoadState.NETWORKIDLE, new Page.WaitForLoadStateOptions().setTimeout(30000));
                 return Optional.ofNullable(Jsoup.parse(page.content()));
             }
         } catch (Exception e) {
@@ -54,7 +56,7 @@ public class ScraperImpl implements Scraper {
                 .distinct()
                 .filter(Objects::nonNull)
                 .filter(e -> !e.isEmpty())
-                .flatMap(e -> resultCollector.collectElements(e, scrapeConfig,baseUrl).stream());
+                .flatMap(e -> resultCollector.collectElements(e, scrapeConfig, baseUrl).stream());
 
     }
 }

@@ -7,6 +7,7 @@ import org.jsoup.select.Elements;
 import org.springframework.stereotype.Component;
 import ua.bot.event_parser.config.LeonConfigurationProperties;
 
+import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
@@ -28,9 +29,9 @@ public class MapResultCollectorImpl implements ResultCollector<Map<String, Strin
                     if (parseConfig.get("link") != null) {
                         return !baseUrl.equalsIgnoreCase(stringStringMap.get("link"));
                     }
-                    return false;
+                    return true;
                 })
-                .collect(Collectors.toSet());
+                .collect(Collectors.toCollection(LinkedHashSet::new));
     }
 
     private Map<String, String> collectToMap(Element element, Map<String, String> parseConfig, String baseUrl) {
@@ -47,6 +48,16 @@ public class MapResultCollectorImpl implements ResultCollector<Map<String, Strin
         } else {
             if (configurationProperties.getReservedWords().contains(entry.getKey())) {
                 return entry.getValue();
+            }
+            if (entry.getKey().toLowerCase().contains("list")) {
+                return element.select(entry.getValue())
+                        .stream()
+
+                        .map(e -> e.select("span").stream()
+                                .map(Element::text)
+                                .collect(Collectors.joining(" ")))
+                        .distinct()
+                        .collect(Collectors.joining(";"));
             }
             return element.select(entry.getValue()).text();
         }
