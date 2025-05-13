@@ -119,7 +119,7 @@ public class LeonScrapeService {
     Set<Map<String, String>> parseMatches(Set<Map<String, String>> configs, String baseUrl) {
         log.debug("start parse matches config:{}", configs);
 
-        var res = configs.stream()
+        var res = configs.parallelStream()
                 .flatMap(config -> executeAsync(config.get("url"), config, mapResultCollector, baseUrl)
                         .stream()
                         .filter(map -> !map.get("date").isEmpty())
@@ -182,7 +182,7 @@ public class LeonScrapeService {
     @SneakyThrows
     Map<String, Set<Map<String, String>>> parseMatchEventsMap(Set<Map<String, String>> matchesConfig, String baseUrl) {
         log.debug("start parse match events config: {}", matchesConfig);
-        var res = matchesConfig.stream()
+        var res = matchesConfig.parallelStream()
                 .map(match -> {
                     var map = new HashMap<>(leonConfigurationProperties.getEventsConfig());
                     map.put("url", match.get("link"));
